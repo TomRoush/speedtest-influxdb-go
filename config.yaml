@@ -1,0 +1,16 @@
+general:
+  delay: 0
+logging:
+  # Valid Options: fatal, error, warn, info, debug, disabled
+  level: warn
+speedtest:
+  # Leave blank to auto pick server
+  server: 
+influxdb:
+  address: 
+  port: 8086
+  organization: 
+  bucket: 
+  # Either a token (2.x) or username:password (1.8.x)
+  token: 
+  ssl: false
